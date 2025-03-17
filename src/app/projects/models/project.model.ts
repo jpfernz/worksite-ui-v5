@@ -6,7 +6,7 @@ export enum ProjectStatus {
   DELAYED = 'Delayed',
 }
 
-export interface IProject {
+export interface Project {
   id?: string;
   title: string;
   description: string;
